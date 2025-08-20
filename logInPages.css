@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body  {
+    background-image: url(imge/@Wallpaper_INT\ \ \ \ 10100.jpg);
+    background-size: cover;
+    text-align: center;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+.continer {
+    border: 1px solid black;
+    flex-direction: column;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    margin: 5em;
+    padding: 5em;
+    flex-wrap: nowrap;
+    width: 20%;
+}
